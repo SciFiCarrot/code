@@ -1,0 +1,131 @@
+\documentclass[11pt,a4paper]{article}
+
+%\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+\usepackage{enumitem}
+\usepackage{array, tabularx}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{unicode-math}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{xurl}            % smart line breaks for long URLs
+\usepackage[hidelinks]{hyperref}  % hyperlinks without garish boxes
+
+\urlstyle{same}
+
+\pgfplotsset{compat=1.18}
+
+\setlist[enumerate,1]{
+    label=\mbox{},        % empty (invisible) label
+    leftmargin=0pt,       % align exactly with the text
+    labelsep=0pt,
+    align=left,
+    itemsep=1.5\baselineskip % vertical gap between Opgaver
+}
+\setlist[enumerate,2]{
+    label=(\alph*),
+    leftmargin=2em,
+    labelsep=.6em,
+    itemsep=\baselineskip
+}
+\newcommand{\opgave}[1]{\textbf{Opgave #1}}
+
+
+\begin{document}
+
+
+
+    \section*{2. Fysik Aflevering}
+        \begin{enumerate}
+            \item[] \opgave{1}
+                \begin{enumerate}
+                    \item
+                        Den blå linje er ballonens data. Den røde viser en funktion som skal beskrive dataen. Det er en logarithmus funktion. Den grønne er en hyperbel og følger fra idealgasligningen.\\
+                        \begin{tikzpicture}
+                            \begin{axis} [
+                                width=\textwidth,          % fills page text width
+                                height=0.7\textwidth,
+                                grid=both, minor tick num=1,
+                                xlabel={Rumfang (cm$^3$)},
+                                ylabel={Tryk i ballon (Pa)},
+                                title={},
+                                scaled y ticks=false,
+                                yticklabel style={/pgf/number format/.cd, 1000 sep={\,}, fixed, precision=0},
+                                legend pos=north east
+                                ]
+                                % We use column *indices* to ignore the quoted headers.
+                                \addplot+[
+                                    mark=none
+                                ] table [
+                                    x index=0, % "Rumfang (cm³)"
+                                    y index=1, % "Tryk i ballon (Pa)"
+                                    col sep=comma
+                                ] {ballon.csv};
+                                \addlegendentry{Data}
+
+                                \addplot+[ mark=none, domain=0:2848, samples=200]
+                                {107560-653*ln(x)};
+                                \addlegendentry{\(107560-653·\ln(x)\)}
+
+                                \addplot+[ mark=none, domain=75:2848, samples=200]
+                                {296.5/x*1000+102600};
+                                \addlegendentry{\(\frac{297K·8,32\frac{m³Pa}{mol\ kg}·0,12mol}{V}\)}
+                                
+                            \end{axis}
+                        \end{tikzpicture}
+                        
+                        Den logarithmiske beskrivelse blev fundt med en numeriske approximation. Jeg tror ikke at den passer så godt, fordi den har ikke noget at gøre med en ballon. Den grønne passer bedre fordi den følger næsten direkte fra idealgasligningen. Problemet her er at jeg har haft lidt problemer med enhederd, men egentlig at \(n\) er ikke konstant, men ændrer sig. Jeg prøvede også at finde \(n\) afhængig af \(V\), men det virker ikke rigtig. \(n=\frac{pV}{RT}\), hvis man tager denne formel og bruger det i dataen, så finder man at \(n(V)=41,5·V \frac{mol}{m³}\). Men når man indsætter det i gasligningen så er det bare en linear function og det er en værre aproximation.
+                        \\
+                        Jeg har også fundet en anden funktionstype i en paper (). Paperen er en avanceret analyse om forskellige elastiske materialer og hvordan trykket forholder sig.
+                    
+
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                                width=\textwidth,          % fills page text width
+                                height=0.7\textwidth,
+                                grid=both, minor tick num=1,
+                                xlabel={Rumfang (cm$^3$)},
+                                ylabel={Tryk i ballon (Pa)},
+                                title={},
+                                scaled y ticks=false,
+                                yticklabel style={/pgf/number format/.cd, 1000 sep={\,}, fixed, precision=0},
+                                legend pos=north east
+                                ]
+                                % We use column *indices* to ignore the quoted headers.
+                                \addplot+[
+                                    mark=none
+                                ] table [
+                                    x index=0, % "Rumfang (cm³)"
+                                    y index=1, % "Tryk i ballon (Pa)"
+                                    col sep=comma
+                                ] {ballon.csv};
+                                \addlegendentry{Data}
+
+                                \addplot+[ mark=none, domain=-1:8000, samples=1000]
+                                {5235 * (x^(-1/3) - x^(-7/3)) * ((x^(2/3) + x^(-4/3) - 9 * 214)/(x^(2/3) + x^(-4/3) - 3 * 214)) + 101256};
+                            \end{axis}
+                        \end{tikzpicture}
+
+                        \[ 5235·\left(v^{-\frac{1}{3}}-v^{-\frac{7}{3}} \right)·\left( \frac{v^{\frac{2}{3}}+v^{-\frac{4}{3}}-1926}{v^{\frac{2}{3}}+v^{-\frac{4}{3}}-642}\right)\]
+                        Denne funktion er meget mere komplicert men passer også meget bedre til dataen. Som man kan se lidt i den anden figur, bliver trykket også størrer igen, og det skyldes gummien som er helt strækt nu og det bliver hårder at puste ballonen op igen, det sker næsten ikke i praksis, fordi ballonen går i stykker i omkring denne region.
+                \end{enumerate}
+
+            \item[]\opgave{2}
+                \begin{enumerate}
+                    \item 
+                    
+                \end{enumerate}
+            \item[] \opgave{3}
+
+
+                \url{https://www.wolframalpha.com/input?i=5235.12+*+%28x+**+%28-1%2F3%29+-+x+**+%28-7%2F3%29%29+*+%28%28x+**+%282%2F3%29+%2B+x+**+%28-4%2F3%29+-+9+*+214.63%29%2F%28x+**+%282%2F3%29+%2B+x+**+%28-4%2F3%29+-+3+*+214.63%29%29+%2B+101256.66}
+                    
+
+
+                    \url{https://www.wolframalpha.com/input?i=integrate+5235.12+*+%28x+**+%28-1%2F3%29+-+x+**+%28-7%2F3%29%29+*+%28%28x+**+%282%2F3%29+%2B+x+**+%28-4%2F3%29+-+9+*+214.63%29%2F%28x+**+%282%2F3%29+%2B+x+**+%28-4%2F3%29+-+3+*+214.63%29%29+%2B+101256.66+dx+from+0.42+to+2848}
+                \begin{enumerate}
+                    \item 
+                \end{enumerate}        
+        \end{enumerate}
+\end{document}

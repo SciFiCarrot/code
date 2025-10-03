@@ -1,0 +1,1 @@
+print("nvim-python ready")
