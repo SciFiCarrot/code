@@ -1,0 +1,13 @@
+array (sorteret)
+midldle(Array)
+ved middle:
+    hvis tallet > nuværenede
+        så laver en ny array med kun elementer over middle
+    ellers
+        så laver en ny array med kun elementer under middle
+
+det hele laver indtil den nye array har et element
+når du er færdig check hvis elementet er lige med tallet
+    så print indexen af originale array
+
+hvis det ikke findes så giv -1

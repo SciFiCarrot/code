@@ -13,9 +13,21 @@
 \usepackage{hhline}
 \usepackage[hidelinks]{hyperref}
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
+\pgfplotsset{
+  compat=1.18,
+  % project-wide defaults for consistent look
+  every axis/.append style={
+    width=\linewidth,
+    grid=both,
+    tick align=outside,
+    tick style={thin},
+    legend cell align=left,
+  },
+}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage[section]{placeins} % inserts \FloatBarrier before each \section
+
 
 \setlist[enumerate,1]{
     label=\mbox{},        % empty (invisible) label
@@ -87,8 +99,8 @@
     \section{Data}
         
         % --- Table ---
-        \begin{table}[hbp]
-            \centering
+        \begin{table}[htbp]
+            %\centering
             \renewcommand\arraystretch{1.2}
             \setlength{\tabcolsep}{6pt}
                 \begin{tabular}{||c||c|c|c||c|c||c||c||}
@@ -110,8 +122,8 @@
             \end{tabular}
         \end{table}
         
-        \begin{table}[ht]
-            \centering
+        \begin{table}[htbp]
+            %\centering
             \renewcommand\arraystretch{1.2}
             \setlength{\tabcolsep}{6pt}
             
@@ -131,28 +143,36 @@
         
   
     \section{Databehandling}
+    tiscenr
+       \\
+       \\
+
+
+    % S2O32-
         \begin{tikzpicture}
+            \centering
             \begin{axis}[
-                width=0.8*\linewidth,
-                xlabel={\(S_2O_3^{2-}\) koncentration},
+                width=0.8\linewidth,
+                xlabel={Temperatur i \(K\)},
                 ylabel={Reaktionshastigheden},
                 grid=both,
                 legend pos=south east
                 ]
                 % Kun punkter:
                 \addplot[ mark=*, mark size=2.5pt]
-                coordinates {(0.2, 0.0617) (0.2, 0.0769) (0.15, 0.0581) (0.1, 0.0370) (0.05, 0.0187) };
+                coordinates { (0.2, 0.0769) (0.15, 0.0581) (0.1, 0.0370) (0.05, 0.0187) };
                 \addlegendentry{Målinger}
             \end{axis}
-        \end{tikzpicture} \\
-        Stigningen beregnes som differens af værdierne i forhold til målingerne:
-        \[m = \frac{0,0617-0,0187}{0,2-0,05} = \frac{0,0430}{0,15} = 2,86\]
-        Reaktionshastigheden er derfor givet ved \(v = 2,86 \frac{l}{mol·s}·[S_2O_3^{2-}]\)
+        \end{tikzpicture}
+       
 
-        
+
+       
+        % Temperatur
         \begin{tikzpicture}
+            \centering
             \begin{axis}[
-                width=\linewidth,
+                width=0.8\linewidth,
                 xlabel={Temperatur i \(K\)},
                 ylabel={Reaktionshastigheden},
                 grid=both,
@@ -164,6 +184,31 @@
                 \addlegendentry{Målinger}
             \end{axis}
         \end{tikzpicture} 
+    
+        %HCl
+        \begin{tikzpicture}
+            \centering
+            \begin{axis}[
+                width=0.8\linewidth,
+                xlabel={},
+                ylabel={Reaktionshastigheden},
+                grid=both,
+                legend pos=south east
+                ]
+                % Kun punkter:
+                \addplot[ mark=*, mark size=2.5pt]
+                coordinates {(293.15, 0.0370) (321.15, 0.208) };
+                \addlegendentry{Målinger}
+            \end{axis}
+        \end{tikzpicture} 
+
+
+
+        Stigningen beregnes som differens af værdierne i forhold til målingerne:
+        \[m = \frac{0,0617-0,0187}{0,2-0,05} = \frac{0,0430}{0,15} = 2,86\]
+        Reaktionshastigheden er derfor givet ved \(v = 2,86 \frac{l}{mol·s}·[S_2O_3^{2-}]\)
+
+
         Her er det det samme, kun i afhængighed af temperaturen:
         \[v=\frac{321,15-293,15}{0,208-0,0370} = \frac{28}{0,171} = 164 \frac{K} {s} \]
     \section{Diskussion/fejlkilder}

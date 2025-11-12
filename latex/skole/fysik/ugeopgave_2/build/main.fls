@@ -292,6 +292,3 @@ INPUT ./ballon.csv
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./ballon.csv
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./build/main.aux
-INPUT ./build/main.out

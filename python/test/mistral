@@ -1,0 +1,23 @@
+import cmath
+
+def f(x):
+    return 3*x**4 - 7*x**3 + 2*x**2 - 6*x + 8
+
+def df(x):
+    return 12*x**3 - 21*x**2 + 4*x - 6
+
+def newton_method(x0, epsilon=1e-6, max_iterations=50):
+    for i in range(max_iterations):
+        x = x0 - f(x0) / df(x0)
+        if abs(f(x)) < epsilon or abs(x - x0) < epsilon:
+            return x
+        x0 = x
+    return x
+
+def main():
+    initial_guess = 1.0
+    root = newton_method(initial_guess)
+    print("Root using Newton's method:", root)
+
+if __name__ == "__main__":
+    main()

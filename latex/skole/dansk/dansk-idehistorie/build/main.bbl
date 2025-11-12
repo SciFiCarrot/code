@@ -1,0 +1,96 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{space_odyssey}{book}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2001: A Space Odyssey}
+      \field{year}{1968}
+    \endentry
+    \entry{hal_quotes}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
+           family={MyNewRobot},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{bibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorbibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authornamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{HAL 9000 phrases}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hal9000computer.wordpress.com/2017/11/22/all-hal-9000-phrases-from-the-movie/
+      \endverb
+      \verb{url}
+      \verb https://hal9000computer.wordpress.com/2017/11/22/all-hal-9000-phrases-from-the-movie/
+      \endverb
+    \endentry
+    \entry{sw_ai}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
+           family={MyNewRobot},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{bibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorbibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authornamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is the difference between a strong AI and a weak AI?}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-difference-between-a-strong-ai-and-a-weak-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-difference-between-a-strong-ai-and-a-weak-ai/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

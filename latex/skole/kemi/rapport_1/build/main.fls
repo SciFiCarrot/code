@@ -277,10 +277,12 @@ INPUT /usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.t
 INPUT /usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/share/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/share/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT ./build/main.aux
 OUTPUT build/main.aux
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -297,9 +299,9 @@ INPUT ./20250918_111422.jpg
 INPUT ./20250918_111422.jpg
 INPUT ./20250918_123029.jpg
 INPUT ./20250918_123029.jpg
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./build/main.aux

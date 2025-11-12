@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759228396.63662 "main.tex" "build/main.pdf" "main" 1759228399.09314 0
+["pdflatex"] 1759735006.10272 "main.tex" "build/main.pdf" "main" 1759735007.39413 0
   "/etc/texmf/tex/generic/config/language.dat" 1759221544.50676 3889 2163289ec726686420acd1e489ad1935 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1758812412.50223 637071 6dadc1792dc3c6fe7b1dacddd705ccba ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1758812413.38818 81824 22b6b583ce7f7c3b05e988197fe2af9f ""
@@ -185,6 +185,7 @@
   "/usr/share/texmf-dist/tex/latex/graphics/keyval.sty" 1755987285 2671 70891d50dac933918b827d326687c6e8 ""
   "/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1755987285 2885 9c645d672ae17285bba324998918efd8 ""
   "/usr/share/texmf-dist/tex/latex/graphics/trig.sty" 1755987285 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
+  "/usr/share/texmf-dist/tex/latex/grfext/grfext.sty" 1755987285 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
   "/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty" 1755987285 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/share/texmf-dist/tex/latex/hyperref/hluatex.def" 1755987285 51053 4064b355f713e60e4dc2c95e80f4aac2 ""
   "/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty" 1755987285 222112 c22dbd2288f89f7ba942ac22f7d00f11 ""
@@ -213,6 +214,7 @@
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1755987285 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1755987285 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty" 1755987285 4904 ee78b44e85d6fccf08cd99370557481e ""
+  "/usr/share/texmf-dist/tex/latex/placeins/placeins.sty" 1755987285 4087 636308456f60d2b31cbf97867db5708d ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1755987285 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1755987285 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua" 1755987285 1020 36d4dc663e02d83b566558c712569e2d ""
@@ -273,9 +275,9 @@
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1759221555 5586427 d99ae4bc991e885b4f1f600cbc0c9e74 ""
   "20250918_111422.jpg" 1759071828.9663 481678 d4682a089a289276eadd4745e6dde446 ""
   "20250918_123029.jpg" 1759071820.15719 246959 bf330e85fc5761dce2d60dfaa7bb3901 ""
-  "build/main.aux" 1759228398.84799 2041 68d4d644eb0df551e2a484d02e9cbcbf "pdflatex"
-  "build/main.out" 1759228398.84799 1133 3f6777ccf59e8bfd11ee0cf30b10ca0b "pdflatex"
-  "main.tex" 1759228396.13094 7932 6ab5bb74f9687909b0db0813001ae42e ""
+  "build/main.aux" 1759735007.25757 2041 d4d91de42d7e4cd6bb7c4d95328561f4 "pdflatex"
+  "build/main.out" 1759735007.25857 1133 3f6777ccf59e8bfd11ee0cf30b10ca0b "pdflatex"
+  "main.tex" 1759735004.35576 8842 2590f4b64790ed56e92fa07ff31936df ""
   (generated)
   "build/main.aux"
   "build/main.log"

@@ -1,0 +1,7 @@
+\babel@toc {danish}{}\relax 
+\contentsline {section}{\numberline {1}Introduktion}{1}{section.1}%
+\contentsline {section}{\numberline {2}Teori eller baggrund}{1}{section.2}%
+\contentsline {section}{\numberline {3}Metode}{1}{section.3}%
+\contentsline {section}{\numberline {4}Resultater}{1}{section.4}%
+\contentsline {section}{\numberline {5}Diskussion}{1}{section.5}%
+\contentsline {section}{\numberline {6}Konklusion}{1}{section.6}%

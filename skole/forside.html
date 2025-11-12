@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+        <title>min side</title>
+        <style>
+            #title {
+            color: blue;
+                }
+
+            .container {
+            <!--background-color: aqua;-->
+            padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 id = "title">velkomme side</h1>
+
+        <div class = "container">
+            <p>text</p>
+        </div>
+
+        <button id = "button1">click me</button>
+        <button id = "button2">add paragraph</button>
+        <button id = "button3">remove first</button>
+        
+        <input
+            type="text"
+            id="input1"
+            name="input1"
+            required
+            minlength="4"
+            maxlength="8"
+            size="10" />
+
+        <script>
+            // Variables
+            const button = document.getElementById('button1');
+            const addbutton = document.getElementById('button2');
+            const rembutton = document.getElementById('button3');
+            const input = document.getElementById('input1');
+            
+            // Functions
+            function handleClick () {
+                const title = document.getElementById('title');
+                title.textContent = 'welcome'
+            }
+
+            function addP(tekst) {
+                const divlist = document.getElementsByClassName('container');
+                const newP = document.createElement('p');
+                newP.textContent = tekst;
+                divlist[0].appendChild(newP);
+            }
+
+            function handleEvent(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    const title = document.getElementById('title');
+                    addP(input.value)
+                    input.value = null
+                };
+            };
+             
+            function removeItemfromList(itemId) {
+                let item = divlist[0].children[0]
+                divlist[0].removeChild(item)
+            }
+            
+            // Event Listeners
+            input.addEventListener('keydown', handleEvent);
+            button.addEventListener('click', handleClick);
+            addbutton.addEventListener('click',addP);
+
+        </script>
+    </body>
