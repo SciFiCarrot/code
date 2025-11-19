@@ -294,5 +294,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./build/main.aux
 INPUT ./build/main.out

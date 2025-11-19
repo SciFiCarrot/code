@@ -1,10 +1,17 @@
 \babel@toc {danish}{}\relax 
 \contentsline {section}{\numberline {1}Resumé}{1}{section.1}%
 \contentsline {section}{\numberline {2}Indledning}{3}{section.2}%
-\contentsline {section}{\numberline {3}Spørgsmålene}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Stærk eller svag Kunstig Intelligens}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Analyse og diskussion}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Stærk \& svag Kunstig Intelligens}{4}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Stærk / General Kunstig Intelligens}{4}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Svag / Narrow Kunstig Intelligens}{4}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}HAL 9000}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}[Hvornår tager AI over? Etiske problemer og skal vi være bange]}{5}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Konklusion}{5}{section.4}%
+\contentsline {subsection}{\numberline {3.2}HAL 9000}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Pligtetik}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Konsekvensetik}{6}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Ansvarsetik}{7}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Farer og indflydelse af AI}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Risici ved ondsindet brug}{8}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Risici ved funktionsfejl}{8}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Systemiske risici}{9}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Konklusion}{9}{section.4}%
+\contentsline {section}{Litteratur}{10}{section*.2}%

@@ -11,7 +11,7 @@ VERILOG_SOURCES = src/enigma.v
 COCOTB_TOPLEVEL = enigma_core 
 
 # COCOTB_TEST_MODULES is the basename of the Python test file(s)
-COCOTB_TEST_MODULES = test/test_my_design
+COCOTB_TEST_MODULES = tb/enigma_tb.py
 
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim

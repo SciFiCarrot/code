@@ -1,14 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'build/main.blg'
-[45] biber:342> INFO - === Thu Nov  6, 2025, 14:08:06
-[55] Biber.pm:421> INFO - Reading 'build/main.bcf'
-[105] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
-[118] Biber.pm:4487> INFO - Processing section 0
-[126] Biber.pm:4678> INFO - Looking for bibtex file 'kilder.bib' for section 0
-[127] bibtex.pm:1713> INFO - LaTeX decoding ...
-[130] bibtex.pm:1519> INFO - Found BibTeX data source 'kilder.bib'
-[161] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[161] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[161] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'da-DK'
-[168] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[170] bbl.pm:779> INFO - Output to build/main.bbl
+[25] biber:342> INFO - === Fri Nov 14, 2025, 15:55:15
+[32] Biber.pm:421> INFO - Reading 'build/main.bcf'
+[65] Biber.pm:1002> INFO - Found 11 citekeys in bib section 0
+[75] Biber.pm:4487> INFO - Processing section 0
+[79] Biber.pm:4678> INFO - Looking for bibtex file 'kilder.bib' for section 0
+[80] bibtex.pm:1713> INFO - LaTeX decoding ...
+[83] bibtex.pm:1519> INFO - Found BibTeX data source 'kilder.bib'
+[126] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[126] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[126] Biber.pm:4307> INFO - Sorting list 'nyt/apasortcite//global/global/global' of type 'entry' with template 'nyt' and locale 'da-DK'
+[136] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[136] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[136] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'da-DK'
+[142] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[146] bbl.pm:779> INFO - Output to build/main.bbl

@@ -1,11 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1762265321.17947 "main.tex" "build/main.pdf" "main" 1762265322.3064 2
+["pdflatex"] 1763314418.37546 "main.tex" "build/main.pdf" "main" 1763314420.66757 2
   "/etc/texmf/tex/generic/config/language.dat" 1759221544.50676 3889 2163289ec726686420acd1e489ad1935 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/latinmodern-math.luc" 1758812412.50223 637071 6dadc1792dc3c6fe7b1dacddd705ccba ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1758812411.93727 128397 3d64569876988f0ea2d36440ce1a1ff1 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1758812411.69429 127314 2a77d9f8905e723234085831cb339442 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1758812413.24519 127657 4f777f3dd503fb095890a1470864ea05 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1758812413.15819 128908 92a59b37352b9b6185e9272871d4c8ed ""
+  "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc" 1759221842.13075 125954 57765573fc9a95109876f019f27a51d6 ""
+  "/home/luis/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1759221842.05875 128133 57b73609f92291c583e77b6adf27bd12 ""
   "/home/luis/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1758812411.55129 602491 8deb4e9adda401c5a701fd29af814562 ""
   "/usr/share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1755987285 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1755987285 111536 ae9d1b331000d544f47e5223081b7b54 ""
@@ -265,9 +267,9 @@
   "/usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1755987285 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759221516 5314414 fb1688128337ca31bb0bd81b1176ba10 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1759221555 5586427 d99ae4bc991e885b4f1f600cbc0c9e74 ""
-  "build/main.aux" 1762265322.21037 299 c6de47bb8b22993df70bc7ba3ea9fb7d "pdflatex"
-  "build/main.out" 1762265322.12837 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1762265320.84836 1205 e75f4291f2d65e8f237ad680dd90b1e8 ""
+  "build/main.aux" 1763314420.51745 299 abc08d7738d40cd25d6989c1f932353c "pdflatex"
+  "build/main.out" 1763314419.43645 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1763314417.70245 7999 e1a653ce26c86800a3dd58cc1b7cf331 ""
   (generated)
   "build/main.aux"
   "build/main.log"

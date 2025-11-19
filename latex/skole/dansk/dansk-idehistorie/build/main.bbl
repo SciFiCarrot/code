@@ -18,17 +18,219 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{space_odyssey}{book}{}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+  \datalist[entry]{nyt/apasortcite//global/global/global}
+    \entry{aiparadox}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=636605a27fab77ecbffbea8b589f7c49}{%
+           family={Batra},
+           familyi={B\bibinitperiod},
+           given={Navneet},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{fullhash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{fullhashraw}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{bibnamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorbibnamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authornamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorfullhash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorfullhashraw}{636605a27fab77ecbffbea8b589f7c49}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{2001: A Space Odyssey}
+      \field{note}{LinkedIn}
+      \field{title}{Who’s Really Being Trained—Us or the AI? The Silent Paradox of Our AI Age}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/whos-really-being-trainedus-ai-silent-paradox-our-age-navneet-batra-plqic
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/whos-really-being-trainedus-ai-silent-paradox-our-age-navneet-batra-plqic
+      \endverb
+    \endentry
+    \entry{aireport}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f956cfff5f91902bb7611d217dee7fe3}{%
+           family={Mindermann},
+           familyi={M\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad021ddab42123fb3bf0976b5a61428b}{%
+           family={Privitera},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{3}{%
+        {Department for Science, Innovation}%
+        {Technology}%
+        {AI Safety Institute}%
+      }
+      \list{location}{1}{%
+        {United Kingdom}%
+      }
+      \strng{namehash}{058f6aa7282521dda725a309bd2d3fea}
+      \strng{fullhash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{fullhashraw}{8128ae0d112478aed32cf1b715d09695}
+      \strng{bibnamehash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authorbibnamehash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authornamehash}{058f6aa7282521dda725a309bd2d3fea}
+      \strng{authorfullhash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authorfullhashraw}{8128ae0d112478aed32cf1b715d09695}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{DSIT 2025/001}
+      \field{title}{International AI Safety Report}
+      \field{type}{Technical report}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/international-ai-safety-report-2025
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/international-ai-safety-report-2025
+      \endverb
+    \endentry
+    \entry{castelvecchi2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dfd36356908a0aa24260ffef20f09b06}{%
+           family={Castelvecchi},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fccde3181d1291706c2101b51392eb06}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{030ee81df61762e06094b309f120d593}
+      \strng{fullhash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{fullhashraw}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{bibnamehash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authorbibnamehash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authornamehash}{030ee81df61762e06094b309f120d593}
+      \strng{authorfullhash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authorfullhashraw}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{title}{{`It keeps me awake at night': Machine-learning pioneer on AI's threat to humanity}}
+      \field{type}{News Q\&A}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1038/d41586-025-03686-1
+      \endverb
+    \endentry
+    \entry{strongweak_ai}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6eb56f80be8a120436d6f1c9b8d87ca}{%
+           family={geeksforgeeks},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{fullhash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{fullhashraw}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{bibnamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorbibnamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authornamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorfullhash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorfullhashraw}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is the difference between a strong AI and a weak AI?}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-difference-between-a-strong-ai-and-a-weak-ai/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-difference-between-a-strong-ai-and-a-weak-ai/
+      \endverb
+    \endentry
+    \entry{kubrick2001}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0a306cf08a961030caeed1bfcdb2b93}{%
+           family={Kubrick},
+           familyi={K\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Metro-Goldwyn-Mayer}%
+      }
+      \strng{namehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{fullhash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{fullhashraw}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{bibnamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorbibnamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authornamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorfullhash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorfullhashraw}{a0a306cf08a961030caeed1bfcdb2b93}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2001: A Space Odyssey [Film]}
       \field{year}{1968}
     \endentry
     \entry{hal_quotes}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
+        {{un=0,uniquepart=base,hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
            family={MyNewRobot},
            familyi={M\bibinitperiod}}}%
       }
@@ -40,9 +242,11 @@
       \strng{authornamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
       \strng{authorfullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
       \strng{authorfullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{HAL 9000 phrases}
@@ -58,23 +262,386 @@
       \verb https://hal9000computer.wordpress.com/2017/11/22/all-hal-9000-phrases-from-the-movie/
       \endverb
     \endentry
-    \entry{sw_ai}{online}{}{}
+    \entry{chatgpt1}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
-           family={MyNewRobot},
-           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=e5231a0695f913f6c90c7e9bed401bf8}{%
+           family={Ramirez},
+           familyi={R\bibinitperiod},
+           given={Vanessa\bibnamedelima Bates},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{fullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{fullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{bibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{authorbibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{authornamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{authorfullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
-      \strng{authorfullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{namehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{fullhash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{fullhashraw}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{bibnamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorbibnamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authornamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorfullhash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorfullhashraw}{e5231a0695f913f6c90c7e9bed401bf8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Scientific American}
+      \field{title}{ChatGPT Is Changing the Words We Use in Conversation}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/chatgpt-is-changing-the-words-we-use-in-conversation/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/chatgpt-is-changing-the-words-we-use-in-conversation/
+      \endverb
+    \endentry
+    \entry{kinesisk}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8cad1331e760a3c9f3683e326478a0ba}{%
+           family={Systime},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{bibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorbibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authornamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tankeeksperimentet "Det kinesiske værelse"}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+      \verb{url}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+    \endentry
+    \entry{turing}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8cad1331e760a3c9f3683e326478a0ba}{%
+           family={Systime},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{bibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorbibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authornamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
       \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Turings test}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+      \verb{url}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+    \endentry
+    \entry{chatgpt2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=68feee1829b95d4c7ddc27bbb9c874e2}{%
+           family={Titcomb},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{fullhash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{fullhashraw}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{bibnamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorbibnamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authornamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorfullhash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorfullhashraw}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Telegraph}
+      \field{title}{ChatGPT triggers surge in MPs using AI-written speeches}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.telegraph.co.uk/business/2025/09/11/chatgpt-triggers-surge-in-mps-using-ai-written-speeches/
+      \endverb
+      \verb{url}
+      \verb https://www.telegraph.co.uk/business/2025/09/11/chatgpt-triggers-surge-in-mps-using-ai-written-speeches/
+      \endverb
+    \endentry
+    \entry{LLM_impact}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0dcb59081f3e6e40d90382c480bab22e}{%
+           family={Yakura},
+           familyi={Y\bibinitperiod},
+           given={Hiromu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab2537b427710448cd643e00279e2802}{%
+           family={Lopez-Lopez},
+           familyi={L\bibinithyphendelim L\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03ac922211d2eed01504140eef5b9b1a}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22769a418937f75695ac38b3232e26c0}{%
+           family={Serna},
+           familyi={S\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1464d6b3a8d2b3388e6a45013c518d35}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74e96fd38c4570343181a48a2b9e2607}{%
+           family={Soraperra},
+           familyi={S\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ddd95e61c9884d4bc3c430e82855850}{%
+           family={Rahwan},
+           familyi={R\bibinitperiod},
+           given={Iyad},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b94f77bb3ff07a45f04af3bf6f3ae53d}
+      \strng{fullhash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{fullhashraw}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{bibnamehash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authorbibnamehash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authornamehash}{b94f77bb3ff07a45f04af3bf6f3ae53d}
+      \strng{authorfullhash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authorfullhashraw}{a1a2ba7ab713508de658ee5739296bdc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{Empirical evidence of Large Language Model’s influence on human spoken communication}
+      \field{year}{2025}
+      \field{pages}{4\bibrangedash 7 \& 26}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://arxiv.org/pdf/2409.01754
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{aiparadox}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=636605a27fab77ecbffbea8b589f7c49}{%
+           family={Batra},
+           familyi={B\bibinitperiod},
+           given={Navneet},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{fullhash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{fullhashraw}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{bibnamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorbibnamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authornamehash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorfullhash}{636605a27fab77ecbffbea8b589f7c49}
+      \strng{authorfullhashraw}{636605a27fab77ecbffbea8b589f7c49}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{LinkedIn}
+      \field{title}{Who’s Really Being Trained—Us or the AI? The Silent Paradox of Our AI Age}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/whos-really-being-trainedus-ai-silent-paradox-our-age-navneet-batra-plqic
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/whos-really-being-trainedus-ai-silent-paradox-our-age-navneet-batra-plqic
+      \endverb
+    \endentry
+    \entry{aireport}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f956cfff5f91902bb7611d217dee7fe3}{%
+           family={Mindermann},
+           familyi={M\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad021ddab42123fb3bf0976b5a61428b}{%
+           family={Privitera},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{3}{%
+        {Department for Science, Innovation}%
+        {Technology}%
+        {AI Safety Institute}%
+      }
+      \list{location}{1}{%
+        {United Kingdom}%
+      }
+      \strng{namehash}{058f6aa7282521dda725a309bd2d3fea}
+      \strng{fullhash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{fullhashraw}{8128ae0d112478aed32cf1b715d09695}
+      \strng{bibnamehash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authorbibnamehash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authornamehash}{058f6aa7282521dda725a309bd2d3fea}
+      \strng{authorfullhash}{8128ae0d112478aed32cf1b715d09695}
+      \strng{authorfullhashraw}{8128ae0d112478aed32cf1b715d09695}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{DSIT 2025/001}
+      \field{title}{International AI Safety Report}
+      \field{type}{Technical report}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gov.uk/government/publications/international-ai-safety-report-2025
+      \endverb
+      \verb{url}
+      \verb https://www.gov.uk/government/publications/international-ai-safety-report-2025
+      \endverb
+    \endentry
+    \entry{castelvecchi2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dfd36356908a0aa24260ffef20f09b06}{%
+           family={Castelvecchi},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fccde3181d1291706c2101b51392eb06}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{030ee81df61762e06094b309f120d593}
+      \strng{fullhash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{fullhashraw}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{bibnamehash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authorbibnamehash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authornamehash}{030ee81df61762e06094b309f120d593}
+      \strng{authorfullhash}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \strng{authorfullhashraw}{bae2b4e1d39bc3b88ae46bc97c8206c0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{title}{{`It keeps me awake at night': Machine-learning pioneer on AI's threat to humanity}}
+      \field{type}{News Q\&A}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1038/d41586-025-03686-1
+      \endverb
+    \endentry
+    \entry{strongweak_ai}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a6eb56f80be8a120436d6f1c9b8d87ca}{%
+           family={geeksforgeeks},
+           familyi={g\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{fullhash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{fullhashraw}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{bibnamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorbibnamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authornamehash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorfullhash}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \strng{authorfullhashraw}{a6eb56f80be8a120436d6f1c9b8d87ca}
+      \field{sortinit}{g}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{What is the difference between a strong AI and a weak AI?}
@@ -88,6 +655,290 @@
       \endverb
       \verb{url}
       \verb https://www.geeksforgeeks.org/artificial-intelligence/what-is-the-difference-between-a-strong-ai-and-a-weak-ai/
+      \endverb
+    \endentry
+    \entry{kubrick2001}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0a306cf08a961030caeed1bfcdb2b93}{%
+           family={Kubrick},
+           familyi={K\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Metro-Goldwyn-Mayer}%
+      }
+      \strng{namehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{fullhash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{fullhashraw}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{bibnamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorbibnamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authornamehash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorfullhash}{a0a306cf08a961030caeed1bfcdb2b93}
+      \strng{authorfullhashraw}{a0a306cf08a961030caeed1bfcdb2b93}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2001: A Space Odyssey [Film]}
+      \field{year}{1968}
+    \endentry
+    \entry{hal_quotes}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60ee6ad43a29984b7c4c7e38c97afeab}{%
+           family={MyNewRobot},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{fullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{bibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorbibnamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authornamehash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhash}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \strng{authorfullhashraw}{60ee6ad43a29984b7c4c7e38c97afeab}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{HAL 9000 phrases}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hal9000computer.wordpress.com/2017/11/22/all-hal-9000-phrases-from-the-movie/
+      \endverb
+      \verb{url}
+      \verb https://hal9000computer.wordpress.com/2017/11/22/all-hal-9000-phrases-from-the-movie/
+      \endverb
+    \endentry
+    \entry{chatgpt1}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5231a0695f913f6c90c7e9bed401bf8}{%
+           family={Ramirez},
+           familyi={R\bibinitperiod},
+           given={Vanessa\bibnamedelima Bates},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{fullhash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{fullhashraw}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{bibnamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorbibnamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authornamehash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorfullhash}{e5231a0695f913f6c90c7e9bed401bf8}
+      \strng{authorfullhashraw}{e5231a0695f913f6c90c7e9bed401bf8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Scientific American}
+      \field{title}{ChatGPT Is Changing the Words We Use in Conversation}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/chatgpt-is-changing-the-words-we-use-in-conversation/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/chatgpt-is-changing-the-words-we-use-in-conversation/
+      \endverb
+    \endentry
+    \entry{kinesisk}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8cad1331e760a3c9f3683e326478a0ba}{%
+           family={Systime},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{bibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorbibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authornamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tankeeksperimentet "Det kinesiske værelse"}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+      \verb{url}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+    \endentry
+    \entry{turing}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8cad1331e760a3c9f3683e326478a0ba}{%
+           family={Systime},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{fullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{bibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorbibnamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authornamehash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhash}{8cad1331e760a3c9f3683e326478a0ba}
+      \strng{authorfullhashraw}{8cad1331e760a3c9f3683e326478a0ba}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Turings test}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+      \verb{url}
+      \verb https://teknologiogfilosofi.systime.dk/?id=265
+      \endverb
+    \endentry
+    \entry{chatgpt2}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=68feee1829b95d4c7ddc27bbb9c874e2}{%
+           family={Titcomb},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{fullhash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{fullhashraw}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{bibnamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorbibnamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authornamehash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorfullhash}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \strng{authorfullhashraw}{68feee1829b95d4c7ddc27bbb9c874e2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Telegraph}
+      \field{title}{ChatGPT triggers surge in MPs using AI-written speeches}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.telegraph.co.uk/business/2025/09/11/chatgpt-triggers-surge-in-mps-using-ai-written-speeches/
+      \endverb
+      \verb{url}
+      \verb https://www.telegraph.co.uk/business/2025/09/11/chatgpt-triggers-surge-in-mps-using-ai-written-speeches/
+      \endverb
+    \endentry
+    \entry{LLM_impact}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0dcb59081f3e6e40d90382c480bab22e}{%
+           family={Yakura},
+           familyi={Y\bibinitperiod},
+           given={Hiromu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab2537b427710448cd643e00279e2802}{%
+           family={Lopez-Lopez},
+           familyi={L\bibinithyphendelim L\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03ac922211d2eed01504140eef5b9b1a}{%
+           family={Brinkmann},
+           familyi={B\bibinitperiod},
+           given={Levin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22769a418937f75695ac38b3232e26c0}{%
+           family={Serna},
+           familyi={S\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1464d6b3a8d2b3388e6a45013c518d35}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74e96fd38c4570343181a48a2b9e2607}{%
+           family={Soraperra},
+           familyi={S\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ddd95e61c9884d4bc3c430e82855850}{%
+           family={Rahwan},
+           familyi={R\bibinitperiod},
+           given={Iyad},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b94f77bb3ff07a45f04af3bf6f3ae53d}
+      \strng{fullhash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{fullhashraw}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{bibnamehash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authorbibnamehash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authornamehash}{b94f77bb3ff07a45f04af3bf6f3ae53d}
+      \strng{authorfullhash}{a1a2ba7ab713508de658ee5739296bdc}
+      \strng{authorfullhashraw}{a1a2ba7ab713508de658ee5739296bdc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{Empirical evidence of Large Language Model’s influence on human spoken communication}
+      \field{year}{2025}
+      \field{pages}{4\bibrangedash 7 \& 26}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://arxiv.org/pdf/2409.01754
       \endverb
     \endentry
   \enddatalist
