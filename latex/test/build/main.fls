@@ -154,9 +154,6 @@ INPUT ./build/main.out
 INPUT ./build/main.out
 OUTPUT build/main.out
 OUTPUT build/main.pdf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./build/main.aux
 INPUT ./build/main.out

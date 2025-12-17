@@ -1,0 +1,102 @@
+
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Language / encoding ----------
+\usepackage[danish]{babel} % change to [english] etc.
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Math ----------
+\usepackage{amsmath,amssymb,mathtools}
+
+% ---------- Figures / tables ----------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% ---------- Lists ----------
+\usepackage{enumitem}
+\setlist{nosep}
+
+% ---------- Header / footer ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{\Course}}
+\rhead{\textbf{\Assignment}}
+\cfoot{\thepage}
+
+% ---------- “Fill in” fields ----------
+\newcommand{\Course}{Kursusnavn}
+\newcommand{\Assignment}{Afleveringstitel}
+\newcommand{\Date}{Dato}
+\newcommand{\Name}{Navn}
+\newcommand{\Class}{Klasse/Hold}
+\newcommand{\Teacher}{Lærer}
+
+% ---------- Problem / solution blocks ----------
+\usepackage[most]{tcolorbox}
+\tcbset{
+  colback=white, colframe=black,
+  boxrule=0.7pt, arc=2mm,
+  left=2mm,right=2mm,top=1mm,bottom=1mm
+}
+\newcounter{prob}
+\newenvironment{problem}[1][]{
+  \refstepcounter{prob}
+  \begin{tcolorbox}[title={Opgave \theprob\if\relax\detokenize{#1}\relax\else\ ( #1 )\fi}]
+}{
+  \end{tcolorbox}
+}
+\newenvironment{solution}{
+  \begin{tcolorbox}[title={Svar / Løsning}]
+}{
+  \end{tcolorbox}
+}
+
+% ---------- Handy helpers ----------
+\newcommand{\given}{\textbf{Givet:}\ }
+\newcommand{\find}{\textbf{Find:}\ }
+\newcommand{\method}{\textbf{Metode:}\ }
+\newcommand{\answer}{\textbf{Svar:}\ }
+
+\begin{document}
+
+% ---------- Title block ----------
+\begin{tcolorbox}
+{\LARGE \textbf{\Assignment}}\\[2mm]
+\textbf{Fag/Kursus:} \Course \\
+\textbf{Navn:} \Name \\
+\textbf{Klasse/Hold:} \Class \\
+\textbf{Lærer:} \Teacher \\
+\textbf{Dato:} \Date
+\end{tcolorbox}
+
+% ---------- Optional notes ----------
+\section*{Noter (valgfrit)}
+Skriv antagelser, enheder, definitioner eller hvad du vil gøre.
+
+% ---------- Copy this block per task ----------
+\begin{problem}[Kort titel]
+% Paste the question here.
+\end{problem}
+
+\begin{solution}
+\given \\
+\find \\
+\method \\[1mm]
+
+% Work:
+\[
+% math here
+\]
+
+\answer
+\end{solution}
+
+% (Duplicate the problem/solution blocks as needed.)
+
+\end{document}

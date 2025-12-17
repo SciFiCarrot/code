@@ -1,4 +1,4 @@
-PWD /home/luis/code/latex/skole/fysik/led
+PWD /home/luis/code/latex/skole/fysik/ugeopgave_8
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT build/main.log

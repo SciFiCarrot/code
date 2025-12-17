@@ -1,0 +1,186 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Sprog & layout ---
+\usepackage[danish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+% --- Matematik ---
+\usepackage{amsmath,amssymb,mathtools}
+
+% --- Pæn struktur ---
+\usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Matematik A} — Talfølger 1}
+\rhead{\textbf{Aflevering}}
+\cfoot{\thepage}
+
+% --- Udfyld selv ---
+\newcommand{\Dato}{5.\ december 2025}
+\newcommand{\NavnA}{Navn 1}
+\newcommand{\NavnB}{Navn 2 (valgfri)}
+\newcommand{\Klasse}{Klasse}
+\newcommand{\Lærer}{Lærer}
+\newcommand{\Titel}{Aflevering: Talfølger 1}
+
+% --- Små “CAS-note” bokse (valgfrit) ---
+\usepackage[most]{tcolorbox}
+\newtcolorbox{casnote}{
+  colback=white, colframe=black, boxrule=0.6pt, arc=2mm,
+  title=CAS-note (forklar hvad CAS gør for dig)
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{\Titel}}\\[2mm]
+  {\large \Dato}\\[3mm]
+\end{center}
+
+\noindent
+\textbf{Navn(e):} \NavnA \ifx\NavnB\empty\else\ , \NavnB\fi \\
+\textbf{Klasse:} \Klasse \qquad
+\textbf{Lærer:} \Lærer
+
+\vspace{4mm}
+\hrule
+\vspace{6mm}
+
+% =========================
+% OPGAVE 1
+% =========================
+\section*{Opgave 1}
+Vi betragter rekursionsligningen
+\[
+x_{n+2} - 6x_{n+1} + 9x_n = 0.
+\]
+
+\subsection*{(a) Fuldstændig løsning}
+\textbf{Idé/metode:} (fx karakteristisk ligning)\\
+\textbf{Udregning:}
+\[
+\text{(skriv din udledning her)}
+\]
+\textbf{Konklusion:} (skriv den generelle løsning tydeligt)
+
+\subsection*{(b) Partikulær løsning med $x_0=1$ og $x_1=2$}
+\textbf{Indsæt startbetingelser:}\\
+\[
+\text{(vis hvordan du finder konstanterne)}
+\]
+\textbf{Svar:} (skriv $x_n=$ ...)
+
+% =========================
+% OPGAVE 2
+% =========================
+\section*{Opgave 2}
+Du indsætter $100000$ kr på en opsparingskonto med årlig rente på $2\%$.
+Lad $x_n$ være beløbet på kontoen $n$ år efter indsættelsen.
+
+\subsection*{(a) Rekursionsligning og startbetingelse}
+\textbf{Forklaring:} (hvorfor netop denne rekursion?)\\
+\[
+x_{n+1} = \dots
+\]
+\[
+x_0 = \dots
+\]
+
+\subsection*{(b) Partikulær løsning}
+\textbf{Udledning:}\\
+\[
+x_n = \dots
+\]
+
+\subsection*{(c) Saldo efter 10 år}
+\[
+x_{10} = \dots
+\]
+\textbf{Svar:} \dots\ kr
+
+\subsection*{(d) Hvornår når saldoen 150000 kr?}
+\textbf{Ulighed:}\\
+\[
+x_n \ge 150000
+\]
+\textbf{Løsning for $n$:}\\
+\[
+n \ge \dots
+\]
+\textbf{Svar:} \dots\ år (afrunding/argumentation)
+
+\begin{casnote}
+Hvis du bruger CAS her: skriv præcis hvad du bad CAS om (fx løsning af ulighed),
+og hvordan du fortolker resultatet i konteksten (heltal, afrunding, osv.).
+\end{casnote}
+
+% =========================
+% OPGAVE 3
+% =========================
+\section*{Opgave 3}
+Bier og forfædre (han/hun). Lad $b_n$ være antallet af bier i den $n$'te generation før en given bi.
+
+\subsection*{(a) Stamtræ 4 generationer baglæns + $b_0,\dots,b_4$}
+\textbf{Tegning/argumentation:}\\
+(Sæt evt. en figur ind eller lav en tydelig tekstbeskrivelse.)\\[1mm]
+\textbf{Værdier:}
+\[
+b_0=\dots,\quad b_1=\dots,\quad b_2=\dots,\quad b_3=\dots,\quad b_4=\dots
+\]
+
+\subsection*{(b) Vis/forklar hvorfor $y_{n+1}=x_n$}
+\textbf{Forklaring:} \\
+\[
+\text{(skriv argumentationen her)}
+\]
+
+\subsection*{(c) Forklar hvorfor $x_{n+1}=b_n=x_n+y_n$}
+\textbf{Forklaring:}\\
+\[
+\text{(skriv argumentationen her)}
+\]
+
+\subsection*{(d) Vis at $b_{n+2}=b_{n+1}+b_n$ og find fuldstændig løsning}
+\textbf{Udledning fra (b) og (c):}\\
+\[
+\text{(trin-for-trin)}
+\]
+\textbf{Fuldstændig løsning:}\\
+\[
+b_n=\dots
+\]
+
+\subsection*{(e) Startbetingelser for hunbi: forklar $b_1=2$ og $b_2=3$}
+\textbf{Forklaring:}\\
+\[
+\text{(skriv argumentationen her)}
+\]
+
+\subsection*{(f) Startbetingelser for 4 hanbier og 3 hunbier + $b_{10}$}
+\textbf{Startdata:}\\
+\[
+x_0=3,\quad y_0=4 \quad \Rightarrow \quad b_0=x_0+y_0=\dots
+\]
+\[
+b_1=\dots,\quad b_2=\dots \quad \text{(angiv passende startbetingelser)}
+\]
+\textbf{Beregning af $b_{10}$:}\\
+\[
+b_{10}=\dots
+\]
+\textbf{Svar:} \dots\ forfædre i 10. generation før dem.
+
+\vspace{6mm}
+\hrule
+\vspace{3mm}
+
+\section*{Kilder / Sætninger brugt}
+Skriv hvilke sætninger/definitioner du bruger (fx om løsning af lineære rekursioner, renteformler osv.).
+
+\end{document}

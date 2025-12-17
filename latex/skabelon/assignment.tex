@@ -1,0 +1,159 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Language & Fonts ----------
+\usepackage[english]{babel} % change to [danish] if you want
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % harmless even if modern engines ignore it
+\usepackage{lmodern}
+
+% ---------- Page layout ----------
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.08}
+
+% ---------- Math ----------
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+
+% ---------- Figures / Tables ----------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% ---------- Lists ----------
+\usepackage{enumitem}
+\setlist{nosep}
+
+% ---------- Links ----------
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Code ----------
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny,
+  stepnumber=1,
+  breaklines=true,
+  frame=single,
+  tabsize=2
+}
+
+% ---------- Nice boxes for problems/solutions ----------
+\usepackage[most]{tcolorbox}
+\tcbset{
+  colback=white,
+  colframe=black,
+  boxrule=0.8pt,
+  arc=2mm,
+  left=2mm,right=2mm,top=1mm,bottom=1mm
+}
+
+% ---------- Header / Footer ----------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{\CourseCode} — \CourseName}
+\rhead{\textbf{\AssignmentTitle}}
+\cfoot{\thepage}
+
+% ---------- User info (edit these) ----------
+\newcommand{\CourseCode}{COURSE123}
+\newcommand{\CourseName}{Course Name}
+\newcommand{\AssignmentTitle}{Assignment \#1}
+\newcommand{\StudentName}{Your Name}
+\newcommand{\StudentID}{Student ID}
+\newcommand{\Teacher}{Teacher / Examiner}
+\newcommand{\DueDate}{2025-12-12}
+
+% ---------- Environments ----------
+\newcounter{problem}
+\newenvironment{problem}[1][]{
+  \refstepcounter{problem}
+  \begin{tcolorbox}[title={Problem \theproblem\if\relax\detokenize{#1}\relax\else\ ( #1 )\fi}]
+}{
+  \end{tcolorbox}
+}
+
+\newenvironment{solution}{
+  \begin{tcolorbox}[title={Solution}]
+}{
+  \end{tcolorbox}
+}
+
+\newcommand{\points}[1]{\hfill\textbf{[#1 pts]}}
+
+% ---------- Document ----------
+\begin{document}
+
+% Title block
+\begin{tcolorbox}
+  {\LARGE \textbf{\AssignmentTitle}}\\[2mm]
+  \textbf{Course:} \CourseCode\ — \CourseName \\
+  \textbf{Student:} \StudentName \quad (\StudentID) \\
+  \textbf{Teacher:} \Teacher \\
+  \textbf{Due date:} \DueDate
+\end{tcolorbox}
+
+% Optional: short intro
+\section*{Notes (optional)}
+Write assumptions, given data, or what you are going to do.
+
+% ---------- Problems ----------
+\begin{problem}[Short title]\points{10}
+State the task (you can paste the question here).
+\end{problem}
+
+\begin{solution}
+Your answer goes here.
+
+\textbf{Example math:}
+\[
+  \sum_{k=1}^{n} k = \frac{n(n+1)}{2}.
+\]
+
+\textbf{Example list:}
+\begin{enumerate}
+  \item Step one
+  \item Step two
+\end{enumerate}
+
+\textbf{Example figure:}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\linewidth]{example-image}
+  \caption{Caption here.}
+\end{figure}
+
+\textbf{Example table:}
+\begin{table}[H]
+  \centering
+  \begin{tabular}{lrr}
+    \toprule
+    Item & Value A & Value B \\
+    \midrule
+    Foo  & 1       & 2 \\
+    Bar  & 3       & 4 \\
+    \bottomrule
+  \end{tabular}
+  \caption{A simple table.}
+\end{table}
+
+\textbf{Example code:}
+\begin{lstlisting}[language=Python, caption={Example code}]
+def f(n):
+    return n*(n+1)//2
+\end{lstlisting}
+
+\end{solution}
+
+% Copy-paste this block for more problems:
+% \begin{problem}[...]\points{...}
+% ...
+% \end{problem}
+% \begin{solution}
+% ...
+% \end{solution}
+
+\end{document}

@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[danish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{array, tabularx}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{unicode-math}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{xurl}            
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+\usepackage[backend=biber,
+            style=apa,
+            sorting=nyt]{biblatex}
+\addbibresource{kilder.bib}
+\usepackage{csquotes}
+
+\urlstyle{same}                 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,                
+  citecolor=black
+}
+\urlstyle{same}
+\pgfplotsset{compat=1.18}
+
+\setlist[enumerate,1]{
+    label=\mbox{},        
+    leftmargin=0pt,       
+    labelsep=0pt,
+    align=left,
+    itemsep=1.5\baselineskip 
+}
+\setlist[enumerate,2]{
+    label=(\alph*),
+    leftmargin=2em,
+    labelsep=.6em,
+    itemsep=\baselineskip
+}
+
+\title{Ugeopgave 9}
+\author{Luis Parker Noah Conradty}
+
+
+\begin{document}
+    \maketitle
+    \begin{enumerate}
+        \item
+            \begin{enumerate}
+                \item 
+                    Der er to givende værdier: \(I = 6,11A\) og \(U= 0,366V\).
+                    Ifølge Ohms lov gælder der:
+                    \[
+                        U = R· I ⇒ R = \frac UI = \frac{0,366V}{6,11A} = \boxed{59,9mΩ}
+                    \]
+                    Resistansen i amperemeteret er altså ca. \(60 mΩ\)
+                \item
+                    Stromstyrken forøges nu til til \(I = 100A\), amperemeteret har et indre resistans af \(R = 53mΩ\)
+                    og viser \(I = 10A\). Der blev også tilføjet et Shuntmodstand \(R_S\).\\
+                    Kredsløbet med Amperemederet og Shuntmodstanden er parallel, derfor er spændingen i de to gren lige. 
+                    Spændingen i den nedere er:
+                    \[U = R · I = 0,053Ω ·10A =\boxed{ 0,53V}\]
+                    Strømstyrken fordeler sig over de to gren, og det gælder at: \(I_1 + I_2 = I_{alt} = 100A
+                    ⇒I_1 = 100A - 10A = 90A\), 
+                    Resistansen af Shuntmodstanden kan nu beregnes:
+                    \[R_S = \frac{U}{I_1} = \frac{0,53V}{90A}=0,0059Ω = \boxed{5,9mΩ}\]
+                \item
+                    Den samlede effekt er: 
+                    \begin{align*}
+                        P_{sam} &= P_1 + P_2 \\
+                        P_{1,2} &= U · I_{1,2} \\
+                        P_{sam} &= (U · I_1) + (U · I_2)\\
+                                &= U · (I_1 + I_2)\\
+                                &= 0,53V · 100A \\
+                                &= \boxed{53W}
+                    \end{align*}
+
+
+
+
+            \end{enumerate}
+    \end{enumerate}
+
+\end{document}
+
